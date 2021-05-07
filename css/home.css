@@ -57,7 +57,7 @@
 .pages .progress { margin-top: 35px; margin-bottom: 18px ;position: relative;clear: both;height: 3px;overflow: hidden; background: #f2f2f2;}
 .pages .progress-bar { position: absolute;top: 0;left: 0;height: 3px;background: #ffb700;}
 .pages .btn{ position: relative;z-index: 2; margin: 38px auto 0; width: 148px;height: 32px; line-height: 32px;text-align: center;color: #ffb700;border: 1px solid #ffb700;}   
-.pages .btn:before{ content: " ";position: absolute;z-index: -1;background: #ffb700;left: 0;top: 0;width: 100%;height: 0;-webkit-transition: all .3s;-moz-transition: all .3s;-ms-transition: all .3s;transition: all .3s}
+.pages .btn:before{ content: " ";position: absolute;z-index: -1;background: #ffb700;left: 0;bottom: 0; width: 100%;height: 0;-webkit-transition: all .3s;-moz-transition: all .3s;-ms-transition: all .3s;transition: all .3s}
 
 .index_news { padding-top: 20px; padding-bottom: 15px; height: auto; overflow: hidden; }
 .index-title { border-bottom: 1px solid #EEE; margin-bottom: 20px; padding-bottom: 20px; font-size: 14px; color: #666; }
