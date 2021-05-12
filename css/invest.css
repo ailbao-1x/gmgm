@@ -1,0 +1,21 @@
+.invest-nav{width: 100%;min-width: 1200px;background: #d42b2e;}
+.invest-nav li{width: 220px;height: 64px;line-height: 64px;float: left;text-align: center;font-size: 18PX;}
+.invest-nav li a{display: block; color: #FFF;}
+.invest-nav li a.active{position: relative;height: 63px; background: #fff; color: #D42B2E;top: 1px;font-weight: 600;}
+
+.invest-content .invest-content-nav{border-bottom: 1px solid #ddd;margin-bottom: 35px;}
+.invest-content-nav a{float: left;width: 180px;height: 70px;line-height: 70px; font-size: 16px;font-weight: bold;color: #333;text-align: center;}
+.invest-content-nav a.selected{ color: #EA544A; border-bottom: 4px solid #EA544A; margin-bottom: -1px;}
+.invest-content-nav a:hover{color: #D42B2E;}
+.invest-content .left{float: left;width: 600px;display: table;}
+.invest-content .left .lable{display: table-cell;margin-top: 20px; width: 140px; float: left;text-align: left;font-weight: bold;color: #666;}
+.invest-content .left .btns{display: table-cell; margin-bottom: 20px;border-bottom: 1px dotted #ccc;}
+.invest-content .left .money-type input{width: 419px;height: 54px;line-height: 50px;padding-left: 10px;border: 1px solid #CCC;margin-bottom: 20px;}
+.invest-content .left button{display: inline-block; width: 90px; text-align: center; line-height: 50px; background: #FFF; border: 1px solid #CCC; margin-right: 20px; margin-bottom: 20px; color: #566B96; font-size: 14px; font-weight: 700;}
+.invest-content .left button:hover{border: 1px solid #FF8C19;}
+.invest-content .right{float: right;padding: 20px 0; width: 580px;border: 1px solid #ddd;background: #fff;}
+.invest-content .right td{padding: 15px 0;}
+.invest-content .right .first-column{text-align: right;color: #666;padding-right: 30px;}
+.invest-content .form-submit-btn{display: block; margin: 0 auto; width: 220px;height: 55px;line-height: 55px; background: #ea544a;border: none;text-align: center;font-size: 16px;font-weight: 700;color: #fff;cursor: pointer;}
+.invest-content .form-submit-btn:hover{background: #FF5256;box-shadow: 0 0 5px 0 #FF5256;}
+.nochecked{display: inline-block;width: 12px;height: 12px;border: 1px solid #ddd;vertical-align: middle;margin-right: 2px;}

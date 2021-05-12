@@ -1,0 +1,15 @@
+.about-content .left{float: left; width: 218px;border: 1px solid #ddd;background: #fff;font-size: 16px;}
+.about-content .left li{height: 50px;line-height: 50px;text-indent: 20px;}
+.about-content .left li a{display: block;width: 100%;height: 100%;}
+.about-content .left li a:hover, 
+.about-content .selected {background: #f9f9f9;color: #ffad2c;margin-left: -1px; border-left: 2px solid #ffad2c;box-sizing: border-box;}
+.about-content .right{float: right;width: 964px;border: 1px solid #ddd;background: #fff;}   
+.about-content .right .title{height: 65px;line-height: 65px;text-indent: 45px; color: #333;position: relative;border-bottom: 1px solid #e6e6e6;font-size: 22px; font-weight: 600;}  
+.about-content .right .title:after{position: absolute;left: 75px;bottom: -9px; display: block; content: "";width: 16px;height: 16px ;border: 1px solid #ddd;transform: rotate(45deg);-webkit-transform: rotate(45deg);  border-bottom: none;border-right: none;background: #fff;}   
+.about-content .right  .content-box {padding: 25px 0 35px;} 
+.about-content .right .us img{display: block; width: 650px ;height: 450px;margin: 0 auto;}  
+.about-content .right .us p{color: #333;padding: 0 40px;text-indent: 2em;line-height: 30px;} 
+      
+    
+   
+    

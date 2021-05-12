@@ -27,14 +27,15 @@ h6 { font-size:12px; }
 .pabs {position: absolute;}
 
 .active{color:#f90;}
-.yellow{color: #ffb700;}
-.blue{color: #567beb;}
-.green{color: #090;}
-.red{color: #f00;}
-.hui{color: #838383}
+.yellow,.coloryellow{color: #ffb700;}
+.blue,.colorblue{color: #567beb;}
+.green,.colorgreen{color: #090;}
+.red,.colorred{color: #f00;}
+.hui,.colorhui{color: #838383}
 .color333{color: #333;}
 .color999{color: #999;}
-.red2{color: #ff7800;}
+.color000{color: #000;}
+.red2,.colorred2{color: #ff7800;}
 .hoveryellow:hover{color: #ffb700;}
 
 .ml46{margin-left: 46px;}
@@ -58,12 +59,16 @@ h6 { font-size:12px; }
 .fz22{font-size: 22px;}
 .fz24{font-size: 24px;}
 .fz34{font-size: 34px;}
-.t-center,.tc{margin: 0 auto;text-align: center;}
+.fzb{font-weight: bold;}
+.t-center,.tc{text-align: center;}
 
 /*width height*/
 .wtb100 {width:100%;}
 .wt1200{width: 1200px;min-width: 1200px; margin: 0 auto;position: relative;}
 .htb{height: 100%;}
+
+.crumbs{padding: 20px 0;}
+.crumbs a:hover{color: #f90;}
 
 .icons{display: inline-block; background: url(../images/comm/icons.png);}
 .top{width: 100%;min-width: 1200px;height: 32px; line-height: 30px; color: #ccc; background: #333;font-size: 12px; /*兼容IE7*/ *position: relative; *z-index: 3;}
@@ -89,10 +94,6 @@ h6 { font-size:12px; }
 
 .hender{position: relative;width: 100%;min-width: 1200px;height:52px;padding: 26px 0; z-index: 3;background: #fff;}
 /*nav 导航*/
-/*.hender .logo .logoinfo { width: 128px; height: 32px; margin-left: 10px; margin-top: 10px; }
-.hender .logo .logoinfo img { width: 128px; height: 32px; }
-.hender .logo .logoinfo-1218 { width: 180px; height: 56px; margin-left: -10px; }
-.hender .logo .logoinfo-1218 img { width: 180px; height: 56px; }*/
 .hender .nav li { float: left; line-height: 52px; height: 52px; position: relative; }
 .hender .nav li:hover .i-arrow-up { background-position: -157px -39px; }
 .hender .nav li:hover .supmenu { display: block; }
@@ -103,18 +104,6 @@ h6 { font-size:12px; }
 .hender .nav .supmenu {display: none;  position: absolute; left: -5px; top: 55px; width: 100px; padding: 10px 0; -webkit-border-radius: 4px; border-radius: 4px; text-align: center; background: #fff; box-shadow: 0 0 20px rgba(0, 0, 0, 0.16); border: 1px solid #eee; }
 .hender .nav .supmenu a { display: block; line-height: 16px; padding: 9px 0; }
 .hender .nav .supmenu .itips { position: absolute; top: -6px;left: -20px; margin-left: 0; width: 100px; height: 6px; background-position: -244px -39px; background-position: -384px -39px \9; }
-
-/*.tdw-nav-suspension { position: fixed; left: 0; top: -60px; top: 0\9; z-index: 9; box-shadow: 0 3px 16px rgba(0, 0, 0, 0.08); border: 1px solid #eee \9; -webkit-transform: translateZ(0); }
-.tdw-nav-suspension .hender { height: 42px; padding: 9px 0; }
-.tdw-nav-suspension .nav > li { line-height: 42px; }
-.tdw-nav-suspension .nav { height: 42px; }
-.tdw-nav-suspension .nav .supmenu { top: 40px; }
-.tdw-nav-suspension .nav .my-account-default, .tdw-nav-suspension .nav .my-account { margin-top: 0; }
-.tdw-nav-suspension .logo a img { width: 133px; height: 40px; }
-.tdw-nav-suspension .logo .logoinfo img { width: 99px; height: 25px; }
-.tdw-nav-suspension .logo .logoinfo-1218 { margin-left: -5px; }
-.tdw-nav-suspension .logo .logoinfo-1218 img { width: 138px; height: 43px; }
-.tdw-nav-suspension-down { top: 0; -webkit-transition: top 0.5s; -moz-transition: top 0.5s; -ms-transition: top 0.5s; -o-transition: top 0.5s; transition: top 0.5s; }*/
 
 /*footer 底部*/
 .footer { width: 100%;min-width: 1200px; margin-top: 40px; padding-top: 75px; padding-bottom: 47px; background: #fff; border-top: 1px solid #eee; }
@@ -152,27 +141,6 @@ h6 { font-size:12px; }
 .footer-safe li.webid{background-position-x: -341px;}
 .footer-safe li.webclass{background-position-x: -455px;}
 .footer-safe li.webin{background-position-x: -570px;}
-
-
-/*右侧工具栏*/
-.tdw-tools-bar { position: fixed; z-index: 999; right: 20px; top: 28%; width: 48px; background: #fff; box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); border: 1px solid #eee ; /*兼容IE7*/ border-bottom: 0 \9; -webkit-transform: translateZ(0); }
-.tdw-tools-bar li { position: relative; height: 48px; line-height: 16px; text-align: center; border-bottom: 1px solid #f2f2f2; *vertical-align: middle;}
-.tdw-tools-bar .last-border { border: 0; }
-.tdw-tools-bar .tool-backtop { display: none; border-bottom: 0; border-bottom: 1px solid #eee; }
-.tdw-tools-bar a { display: block; width: 48px; height: 48px; text-align: center; background: #FFF; color: #FFF; overflow: hidden; -webkit-transition: all 0.6s; -moz-transition: all 0.6s; -ms-transition: all 0.6s; -o-transition: all 0.6s; transition: all 0.6s; }
-.tdw-tools-bar a:hover { background: #ffb700; }
-.tdw-tools-bar a:hover i { margin-top: -48px; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -ms-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; }
-.tdw-tools-bar a i { display: block; width: 48px; height: 48px; margin: 0 auto; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -ms-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; }
-.tdw-tools-bar a p { width: 48px; height: 39px; padding-top: 9px; font-weight: normal; font-size: 14px; text-align: center; line-height: 16px; cursor: pointer;color: #fff; /*兼容IE7*/ }
-.tdw-tools-bar .risk-tips { position: absolute; display: none; left: -122px; top: 10px; width: 110px; height: 30px; background: #ffb700; text-align: center; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; }
-.tdw-tools-bar .risk-tips p { padding: 5px; line-height: 22px; color: #fff; }
-.tdw-tools-bar .risk-tips i { position: absolute; right: -15px; top: 50%; margin-top: -9px; width: 0px; height: 0px; border: 9px solid transparent; border-left-color: #ffb700; }
-.tdw-tools-bar .i-tool-service { background-position: -138px -88px; }
-.tdw-tools-bar .i-tool-risk { background-position: -187px -88px; }
-.tdw-tools-bar .i-tool-help { background-position: -236px -88px; }
-.tdw-tools-bar .i-tool-calculate { background-position: -285px -88px; }
-.tdw-tools-bar .i-tool-backtop { background-position: -334px -88px; }
-
 
 /*按钮背景动画*/
 .btn-text {
@@ -215,3 +183,20 @@ h6 { font-size:12px; }
   100% { -webkit-transform: translate3d(0, 0, 0); -ms-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); } }
 @keyframes fadeInTop { 0% { -webkit-transform: translate3d(0, 6px, 0); -ms-transform: translate3d(0, 6px, 0); transform: translate3d(0, 6px, 0); }
   100% { -webkit-transform: translate3d(0, 0, 0); -ms-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); } }
+.subMenuShow:after {
+    position: absolute;
+    top: 21px;
+    right: 4px;
+    width: 0;
+    height: 0;
+    content: "";
+    display: block;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 8px solid #f90;
+    transition: .4s all ease-out
+}
+
+.subMenuShow:hover:after {
+	transform: rotate(-180deg)
+}  
