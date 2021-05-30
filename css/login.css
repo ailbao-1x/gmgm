@@ -1,0 +1,30 @@
+/*注册*/
+.content-wrap{background: #fff;margin-top: 30px; }
+.reg-top{width: 1020px;margin: 0 auto; padding: 50px 0 18px;border-bottom: 1px solid #ececec;}
+.reg-con{width: 1020px;margin: 60px auto;}
+.reg-con form{width: 640px;}
+.reg-con .form-group{margin-top: 20px;}
+.reg-con .form-group label{display: inline-block;margin-right: 22px; width: 106px;text-align: right;}
+.reg-con .form-group input{width: 288px;text-indent: 15px;height: 18px;line-height: 18px;color: #333;border-radius: 2px; height: 40px;border: 1px solid #e2e2e2;}
+.reg-con .form-group .btn{ width: 288px;height: 40px;line-height: 40px;border-radius: 2px;  background: #EA544A;display: inline-block;border: 0px;cursor: pointer;text-align: center;color: #FFF;font-size: 18px;}
+.reg-con .form-group .btn:hover{background: #f37870;}
+.reg-con .form-fot a{color: #007AFF;} 
+.reg-con .form-fot{margin: 40px; width: 400px;}   
+.reg-con .getcode{position: absolute;top: 10px;left: 333px; color: #b3b2b2;cursor: pointer;}
+ 
+.login-con{width: 100%;height: 500px;}    
+.loginbox {width: 350px;}
+.loginbox h5{ height: 55px;line-height: 55px;padding-left: 30px;color: #848484;border-bottom: 1px solid #e6e6e6;background: url(images/lpIcon.png) 65px center no-repeat #fafafa;} 
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
