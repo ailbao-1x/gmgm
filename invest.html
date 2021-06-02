@@ -111,16 +111,16 @@
 				<div class="left">
 					<div class="mb24 clearfix">
 						<div class="lable">投入资金</div>
-						<div class="btns money-type">
-							<button class="" >200</button>
-							<button class="">500</button>
-							<button class="" >1000</button>
-							<button class="">5000</button>
-							<button class="">1万</button>
-							<button class="">5万</button>
-							<button class="">10万</button>
+						<div id="jsMoneyTypes" class="btns money-type">
+							<button data-val = "200" class="on">200</button>
+							<button data-val = "500" class="">500</button>
+							<button data-val = "1000" class="" >1000</button>
+							<button data-val = "5000" class="">5000</button>
+							<button data-val = "10000" class="">1万</button>
+							<button data-val = "50000" class="">5万</button>
+							<button data-val = "100000" class="">10万</button>
 							<button id="chooseMoney" class="">其他金额</button>
-							<input id="tm" type="text" placeholder="最少元，最多元" class="JS-other-input">
+							<input id="tm" type="text" placeholder="最少元，最多元" class="dn">
 							<span id="errInputTip" style="display:none" class="select-input-error">
 								最少2000，最多20万，百的整数倍
 							</span>
@@ -128,44 +128,43 @@
 					</div>
 					<div class="clearfix">
 						<div class="lable">申请资金操盘</div>
-						<div class="btns">
-							<button type="button" class="">
+						<div id="jsMoneyMores" class="btns">
+							<button data-val = "3" type="button" class="on">
 								<p class="mulriple">3倍</p>
 				            	<p class="total-num">600元</p>
 							</button>
-							<button type="button" class="">
+							<button data-val = "4" type="button" class="">
 								<p class="mulriple">4倍</p>
 				            	<p class="total-num">600元</p>
 							</button>
-							<button type="button" class="">
+							<button data-val = "5" type="button" class="">
 								<p class="mulriple">5倍</p>
 				            	<p class="total-num">600元</p>
 							</button>
-							<button type="button" class="">
+							<button data-val = "6" type="button" class="">
 								<p class="mulriple">6倍</p>
 				            	<p class="total-num">600元</p>
 							</button>
-							<button type="button" class="">
+							<button data-val = "7" type="button" class="">
 								<p class="mulriple">7倍</p>
 				            	<p class="total-num">600元</p>
 							</button>
-							<button type="button" class="">
+							<button data-val = "8" type="button" class="">
 								<p class="mulriple">8倍</p>
 				            	<p class="total-num">600元</p>
 							</button>
-							<button type="button" class="">
+							<button data-val = "9" type="button" class="">
 								<p class="mulriple">9倍</p>
 				            	<p class="total-num">600元</p>
 							</button>
-							<button type="button" class="">
+							<button data-val = "10" type="button" class="">
 								<p class="mulriple">10倍</p>
 				            	<p class="total-num">600元</p>
 							</button>
 						</div>
 					</div>
-						
-					</div>
-				<div class="right">
+				</div>
+				<div id="jsMoneyResults" class="right">
 					<form method="POST" action="##">
 						<table style="width:100%;">
 							<tbody>
