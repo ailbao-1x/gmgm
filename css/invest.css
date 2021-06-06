@@ -11,7 +11,7 @@
 .invest-content .left .lable{display: table-cell;margin-top: 20px; width: 120px; float: left;text-align: left;font-weight: bold;color: #666;}
 .invest-content .left .btns{display: table-cell;border-bottom: 1px dotted #ccc;}
 .invest-content .left .money-type input{width: 419px;height: 54px;line-height: 50px;padding-left: 10px;border: 1px solid #CCC;margin-bottom: 20px;}
-.invest-content .left button{display: inline-block; width: 100px; text-align: center; line-height: 50px; background: #FFF; border: 1px solid #CCC;cursor: pointer; margin-right: 16px; margin-bottom: 20px; color: #566B96; font-size: 14px; font-weight: 700;}
+.invest-content .left button{outline: none; display: inline-block; width: 100px; text-align: center; line-height: 50px; background: #FFF; border: 1px solid #CCC;cursor: pointer; margin-right: 16px; margin-bottom: 20px; color: #566B96; font-size: 14px; font-weight: 700;}
 .invest-content .left button:hover{border: 1px solid #FF8C19;}
 .invest-content .right{float: right;padding: 20px 0; width: 580px;border: 1px solid #ddd;background: #fff;}
 .invest-content .right td{padding: 15px 0;}

@@ -14,6 +14,7 @@ $(function  () {
 		$('#jsMoneyMores button').each(function  (i,e) {
 			$(this).find('.total-num').text(val*$(this).data('val')+'元')
 		})
+		result(obj)
 	})
 	$("#jsMoneyMores").on('click','button',function  (e) {
 		$(this).addClass('on').siblings('button').removeClass('on')
@@ -22,10 +23,11 @@ $(function  () {
 			obj.jsMoneyMores=+val;
 			console.log(obj)
 		}
+		result(obj)
 	})
 	
-	function result (jsMoneyTypes,jsMoneyMores) {
-		
+	function result (obj) {
+		console.log(obj)
 	}
 	
 	$(".on").click();
