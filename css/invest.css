@@ -10,7 +10,7 @@
 .invest-content .left{float: left;width: 600px;display: table;}
 .invest-content .left .lable{display: table-cell;margin-top: 20px; width: 120px; float: left;text-align: left;font-weight: bold;color: #666;}
 .invest-content .left .btns{display: table-cell;border-bottom: 1px dotted #ccc;}
-.invest-content .left .money-type input{width: 419px;height: 54px;line-height: 50px;padding-left: 10px;border: 1px solid #CCC;margin-bottom: 20px;}
+.invest-content .left .money-type input{width: 448px;height: 54px;line-height: 50px;padding-left: 10px;border: 1px solid #CCC;margin-bottom: 20px;}
 .invest-content .left button{outline: none; display: inline-block; width: 100px; text-align: center; line-height: 50px; background: #FFF; border: 1px solid #CCC;cursor: pointer; margin-right: 16px; margin-bottom: 20px; color: #566B96; font-size: 14px; font-weight: 700;}
 .invest-content .left button:hover{border: 1px solid #FF8C19;}
 .invest-content .right{float: right;padding: 20px 0; width: 580px;border: 1px solid #ddd;background: #fff;}
@@ -19,4 +19,4 @@
 .invest-content .form-submit-btn{display: block; margin: 0 auto; width: 220px;height: 55px;line-height: 55px; background: #ea544a;border: none;text-align: center;font-size: 16px;font-weight: 700;color: #fff;cursor: pointer;}
 .invest-content .form-submit-btn:hover{background: #FF5256;box-shadow: 0 0 5px 0 #FF5256;}
 .nochecked{display: inline-block;width: 12px;height: 12px;border: 1px solid #ddd;vertical-align: middle;margin-right: 2px;}
-.on{box-sizing: border-box; border: 4px solid #FF4D4D !important;background: url(../images/comm/trade-flagbg.png) no-repeat right bottom !important;}
+.on{box-sizing: border-box; border: 4px solid #FF4D4D !important;background: url(../images/comm/trade-flagbg.png) no-repeat right bottom !important;line-height: 44px !important;}

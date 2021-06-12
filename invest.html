@@ -10,7 +10,9 @@
 		<script src="js/lib/jquery.min.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/layout.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/lib/swiper-4.3.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/invest.js" type="text/javascript" charset="utf-8"></script>
+		
 	</head>
 	<body>
 		<div class="top">
@@ -112,17 +114,17 @@
 					<div class="mb24 clearfix">
 						<div class="lable">投入资金</div>
 						<div id="jsMoneyTypes" class="btns money-type">
-							<button data-val = "200" class="on">200</button>
-							<button data-val = "500" class="">500</button>
-							<button data-val = "1000" class="" >1000</button>
+							<button data-val = "500" class="on">500</button>
+							<button data-val = "1000" class="">1000</button>
+							<button data-val = "2000" class="" >2000</button>
 							<button data-val = "5000" class="">5000</button>
 							<button data-val = "10000" class="">1万</button>
 							<button data-val = "50000" class="">5万</button>
 							<button data-val = "100000" class="">10万</button>
-							<button id="chooseMoney" class="">其他金额</button>
-							<input id="tm" type="text" placeholder="最少元，最多元" class="dn">
+							<button data-val = "" class="">其他金额</button>
+							<input id="tm" type="text" placeholder="最少500，最多20万，百的整数倍" class="dn">
 							<span id="errInputTip" style="display:none" class="select-input-error">
-								最少2000，最多20万，百的整数倍
+								
 							</span>
 						</div>					
 					</div>
